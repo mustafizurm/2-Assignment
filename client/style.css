@@ -155,3 +155,70 @@ button:last-child{
     font-size: 11px;
     color: gray;
 }
+
+/* change habit part */
+.changeHabitSection{
+    width: 100%;
+    height: 100%;
+    background-color: #303030;
+}
+
+.changeHabitSection h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.changeHabitSection p{
+    text-align: center;
+    color: gray;
+    padding-top: 20px;
+}
+
+.changeHabitContainer{
+    width: 1044px;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 30px;
+    column-gap: 40px;
+}
+
+.changeHabitContainer .habitPart{
+    width: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.habitPart .image{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habitPart img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habitPart h4{
+    margin-top: 10px;
+    color: white;
+}
+
+.habitPart span{
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    margin-top: 0px;
+    text-align: center;
+}
